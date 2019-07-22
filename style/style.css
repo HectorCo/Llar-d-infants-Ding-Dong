@@ -1,0 +1,39 @@
+html, body{
+    height:100%;
+    width:100%;
+    margin: 0px;
+    }
+
+@font-face {
+        font-family: "Adikku";
+        src: url("/fonts/Adikku_Pandai_Menari.ttf") format("truetype");
+      }
+
+.display-4 {
+    font-family: "Adikku";
+    font-size: 80px;
+    color: green;
+}
+
+
+.portada {
+    background-image: url('/img/Background01.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+
+
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
