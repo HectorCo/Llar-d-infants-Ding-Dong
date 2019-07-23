@@ -9,6 +9,7 @@ html, body{
         src: url("/fonts/Adikku_Pandai_Menari.ttf") format("truetype");
       }
 
+
 .h3Carrusel {
     font-family: "Adikku";
     font-size: 50px;
@@ -25,6 +26,27 @@ html, body{
     
    
 }
+
+.carousel-control {
+    opacity: 0.9 !important;
+
+    .glyphicon-chevron-left, .glyphicon-chevron-right, .icon-next, .icon-prev {
+        background-color: #aaa;
+        border-radius: 30px;
+        font-size: 30px;
+        height: 50px;
+        margin: 10px 0 0;
+        padding: 9px 0;
+        width: 50px;
+    }
+}
+.carousel-control:focus, .carousel-control:hover {
+    color: #fff;
+    opacity: 0.9 !important;
+    outline: 0 none;
+    text-decoration: none;
+}
+
 
 .lead {
     font-weight: bold;
@@ -51,7 +73,8 @@ html, body{
 
 .contenido{
     background-image: url(/img/Background01.jpg);
-    padding: 100px;
+    padding: 150px;
+    width: auto;
    
 }
 
