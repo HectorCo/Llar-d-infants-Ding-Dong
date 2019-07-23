@@ -25,27 +25,9 @@ html, body{
     color: #A8A5A0;
     
    
+
 }
 
-.carousel-control {
-    opacity: 0.9 !important;
-
-    .glyphicon-chevron-left, .glyphicon-chevron-right, .icon-next, .icon-prev {
-        background-color: #aaa;
-        border-radius: 30px;
-        font-size: 30px;
-        height: 50px;
-        margin: 10px 0 0;
-        padding: 9px 0;
-        width: 50px;
-    }
-}
-.carousel-control:focus, .carousel-control:hover {
-    color: #fff;
-    opacity: 0.9 !important;
-    outline: 0 none;
-    text-decoration: none;
-}
 
 
 .lead {
@@ -54,22 +36,20 @@ html, body{
 }
 
 
-.portada {
-    background-image: url('/img/Background01.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    width: 100% ;
-
-
-}
-
-.carousel-control-next,
+ .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+    /* filter: invert(100%); */
+ 
+    
+} 
+
+.carousel-control-prev-icon{
+    background-color: bisque;
+    border-radius: 50%;
+    width: 20px;
+
 }
+
 
 .contenido{
     background-image: url(/img/Background01.jpg);
@@ -89,4 +69,25 @@ html, body{
     display: flex;
     justify-content: center;
 
+}
+
+.bienvendida {
+    background-image: url('/img/BackgroundBienvendida.jpg');
+    padding: 150px;
+    width: auto;
+    
+}
+
+.containerBienvenida{
+    display: flex;
+    margin: 30px;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    
+}
+
+.BienvenidaLetras{
+    padding: 25px;
 }
