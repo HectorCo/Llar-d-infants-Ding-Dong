@@ -3,9 +3,11 @@
   src: url("/fonts/Adikku_Pandai_Menari.ttf") format("truetype");
 }
 
-.navbar-custom {
-    background-color: #ff5500;
+.navbar {
+    background-color: white;
 }
+
+
 
 .carousel-control-next,
 .carousel-control-prev {
