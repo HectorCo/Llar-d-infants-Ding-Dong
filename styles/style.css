@@ -96,7 +96,8 @@ p {
 }
 
 .servicios {
-  padding: 150px;
+  margin: auto;
+  padding: 100px;
 }
 
 .btnServicios {
