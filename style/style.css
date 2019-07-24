@@ -1,93 +1,127 @@
-html, body{
-    height:100%;
-    width:100%;
-    margin: 0px;
-    }
-
 @font-face {
-        font-family: "Adikku";
-        src: url("/fonts/Adikku_Pandai_Menari.ttf") format("truetype");
-      }
-
-
-.h3Carrusel {
-    font-family: "Adikku";
-    font-size: 50px;
-    color: green;
-    -webkit-text-stroke: 2px black;
-  
+  font-family: "Adikku";
+  src: url("/fonts/Adikku_Pandai_Menari.ttf") format("truetype");
 }
 
-.pCarrusel {
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-text-stroke: 1px black;
-    font-size: 20px;
-    color: #A8A5A0;
-    
-   
-
+.navbar-custom {
+    background-color: #ff5500;
 }
 
-
-
-.lead {
-    font-weight: bold;
-    color:blue;
-}
-
-
- .carousel-control-next,
+.carousel-control-next,
 .carousel-control-prev {
-    /* filter: invert(100%); */
- 
-    
-} 
-
-.carousel-control-prev-icon{
-    background-color: bisque;
-    border-radius: 50%;
-    width: 20px;
-
+  filter: invert(100%);
 }
 
+h3 {
+  font-family: "Adikku", sans-serif;
+  font-size: 4.5em;
+  color: green;
+  -webkit-text-stroke: 2px black;
+}
 
-.contenido{
-    background-image: url(/img/Background01.jpg);
-    padding: 150px;
-    width: auto;
-   
+p {
+  font-family: "futura-pt", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-inner .carousel-item {
+  transition: transform 1s ease;
+}
+
+.item {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.carousel-item-left .carousel-caption,
+.carousel-item-right .carousel-caption {
+  animation: keepSliding 0.5s normal forwards;
+}
+
+.carousel-item-next .carousel-caption,
+.carousel-item-prev .carousel-caption {
+  animation: slideLeft 1s normal forwards;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 5px;
+  margin: 0 5px;
+  border-radius: 2.5px;
+  transition: all 0.5s ease;
+  transform-origin: 50%, 50%, 0;
+}
+
+.carousel-indicators .active {
+  width: 25px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10vw;
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes keepSliding {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.contenido {
+  background-image: url(/img/Background01.jpg);
+  padding: 150px;
+  width: auto;
 }
 
 .btnServicios {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 
-.iconoServicios{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-
+.iconoServicios {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .bienvendida {
-    background-image: url('/img/BackgroundBienvendida.jpg');
-    padding: 150px;
-    width: auto;
-    
+  background-image: url("/img/BackgroundBienvendida.jpg");
+  padding: 150px;
+  width: auto;
 }
 
-.containerBienvenida{
-    display: flex;
-    margin: 30px;
-    width: auto;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: space-around;
-    
+.containerBienvenida {
+  display: flex;
+  margin: 30px;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
 
-.BienvenidaLetras{
-    padding: 25px;
+.BienvenidaLetras {
+  padding: 25px;
 }
