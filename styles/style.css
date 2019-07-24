@@ -95,10 +95,8 @@ p {
   }
 }
 
-.contenido {
-  background-image: url(/img/Background01.jpg);
+.servicios {
   padding: 150px;
-  width: auto;
 }
 
 .btnServicios {
@@ -114,7 +112,7 @@ p {
 }
 
 .bienvendida {
-  background-image: url("/img/BackgroundBienvendida.jpg");
+  background-color: #F7F7F7;
   padding: 150px;
   width: auto;
 }
