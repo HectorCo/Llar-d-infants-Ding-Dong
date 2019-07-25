@@ -156,3 +156,19 @@ h3 {
   width: auto;
 }
 
+.galeria h1{
+  font-family: "Lobster Two";
+  font-size: 48px;
+}
+
+
+.profesores {
+  background-color: #F9F9F9;
+  padding: 50px;
+  width: auto;
+}
+
+.profesores h1{
+  font-family: "Lobster Two";
+  font-size: 48px;
+}
