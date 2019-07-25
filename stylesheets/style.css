@@ -146,12 +146,12 @@ h3 {
 
 .bienvendida {
   background-image: url(../img/BackgroundBienvendida.jpg);
-  padding: 50px;
-  width: auto;
+  padding: 100px;
+
 }
 
 .galeria {
-  background-color: #F7F7F7;
+  background-color: #F9F9F9;
   padding: 50px;
   width: auto;
 }
