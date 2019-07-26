@@ -210,7 +210,9 @@
     </div>
 
     <!-- Bienvenida -->
-    <div class="bienvendida">
+    <div class="bienvenida">
+      
+    <div class="container-fluid">
       <div class="d-flex flex-column">
         <div class="d-flex justify-content-center text-center">
           <h1>Bienvenidos a Ding-Dong</h1>
@@ -223,30 +225,35 @@
             alt=""
           />
         </div>
+        
         <div class="d-flex justify-content-center text-center">
           <p>
               Ding Dong es un centro de educación infantil autorizado por el Departamento de Educación de la Generalitat de Catalunya, que está en funcionamiento desde el año 1985.
           </p>
         </div>
       </div>
+      <br>
+      <br>
 
-      <div class="d-flex flex-row">
-        <div class="column">
-          <div class="video">
-            <video width="640" height="480" controls>
-              <source src="./img/20190301_171233.mp4" type="video/mp4" />
-            </video>
+      <div class="row">
+      <div class="col-lg mr-auto">
+            <div class="embed-responsive embed-responsive-16by9">
+            <video class="video-fluid z-depth-1" loop controls >
+                <source src="./img/20190301_171233.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
-        </div>
 
-        <div class="column">
-          <div class="">
-            <div class="p-5">
+          
+    
+
+          <div class="col-lg offset-md-1">
+            <div>
               <h2 class="">Bienvenidos a nuestra escuela</h2>
-              <p class="">
-                  Somos un hogar abierto a todo el mundo que acoge a niños y niñas entre los 0 y los 3 años.
+              <p>
+                  Somos un hogar abierto a todo el mundo que acoge a niños y niñas entre los 0 y los 3 años.</p><br>
 
-                  El centro tiene una clase para cada curso: tenemos la clase de los tornillos, que no llegan al año, la clase de los pececillos, que ya han hecho un año y la clase de las ardillas, que tienen 2-3 años.
+                  <p>El centro tiene una clase para cada curso: tenemos la clase de los tornillos, que no llegan al año, la clase de los pececillos, que ya han hecho un año y la clase de las ardillas, que tienen 2-3 años.
                 <a href="#" class="btnServicios"
                   ><button type="button" class="btn btn-success">
                     Lee más
@@ -255,10 +262,12 @@
               </p>
             </div>
           </div>
-        </div>
+        
       </div>
+      
     </div>
-
+  </div>
+  
     <!-- Galeria -->
 
     <div class="galeria">

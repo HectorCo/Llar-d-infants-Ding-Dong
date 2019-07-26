@@ -132,23 +132,24 @@ h3 {
   justify-content: center;
 }
 
+.bienvenida {
+  background-image: url(../img/BackgroundBienvendida.jpg);
+  padding: 100px;
 
-.bienvendida h1{
+}
+
+.bienvenida h1{
   font-family: "Lobster Two";
   font-size: 48px;
 }
 
-.bienvendida h2{
+.bienvenida h2{
   font-family: "Lobster Two";
   font-size: 35px;
 }
 
 
-.bienvendida {
-  background-image: url(../img/BackgroundBienvendida.jpg);
-  padding: 100px;
 
-}
 
 .galeria {
   background-color: #F9F9F9;
