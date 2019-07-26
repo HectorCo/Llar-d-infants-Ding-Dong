@@ -227,6 +227,12 @@ h3 {
 
 } 
 
+#textoAnimado2 {
+
+  visibility: hidden;
+
+} 
+
 .fadeIn{
 	animation-name: fadeIn;
 	-webkit-animation-name: fadeIn;	

@@ -3,7 +3,7 @@ $(window).scroll(function() {
   var imagePos = $(this).offset().top;
 
   var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow+600) {
+    if (imagePos < topOfWindow+400) {
       $(this).addClass("slideLeft");
     }
   });
@@ -17,7 +17,19 @@ $(window).scroll(function() {
   var imagePos = $(this).offset().top;
 
   var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow+900) {
+    if (imagePos < topOfWindow+700) {
+      $(this).addClass("fadeIn");
+    }
+  });
+});
+
+
+$(window).scroll(function() {
+  $('#textoAnimado2').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+700) {
       $(this).addClass("fadeIn");
     }
   });
