@@ -15,6 +15,8 @@
     />
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <link rel="icon" type="image/png" href="./img/alimentador.png" />
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <title>Llar d'infants Ding-Dong</title>
   </head>
   <body>
@@ -260,11 +262,14 @@
 
       <div class="row">
       <div class="col-sm mr-auto mb-3">
+          <div id="entradaVideo" class="fadeIn">
             <div class="embed-responsive embed-responsive-16by9">
+                
             <video class="video-fluid z-depth-1" loop controls >
                 <source src="./img/20190301_171233.mp4" type="video/mp4" />
               </video>
             </div>
+          </div>
           </div>
 
           
@@ -273,8 +278,9 @@
           <div class="col-sm offset-md-1">
             <div>
               <h2 class="">Bienvenidos a nuestra escuela</h2>
+              <div id="textoAnimado" class="slideUp">
               <p>
-                  Somos un hogar abierto a todo el mundo que acoge a niños y niñas entre los 0 y los 3 años.</p><br>
+                  Somos un hogar abierto a todo el mundo que acoge a niños y niñas entre los 0 y los 3 años.</p> </div> <br>
 
                   <p>El centro tiene una clase para cada curso: tenemos la clase de los tornillos, que no llegan al año, la clase de los pececillos, que ya han hecho un año y la clase de las ardillas, que tienen 2-3 años.
                 <a href="#" class="btnServicios"
@@ -489,6 +495,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    
   </body>
 </html>
