@@ -145,10 +145,10 @@ li a{
 
 /* CARRUSEL */
 
-.carousel-control-next,
+/* .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%);
-}
+} */
 
 /* h3 {
   padding: 90px;
@@ -229,6 +229,16 @@ li a{
   100% {
     opacity: 0;
   }
+}
+
+.bolasCarrusel {
+  width: 50px;
+  height: 50px;
+  padding-top: 17px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: rgb(63, 44, 231);
+  cursor: pointer;
 }
 
 
