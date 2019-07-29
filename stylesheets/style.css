@@ -135,7 +135,7 @@ li a{
 #top-btn i {
   padding-top: 15px;
   font-size: 20px;
-  /line-height: 50px;
+  /* line-height: 50px; */
   color: #FFFFFF;
   -webkit-transition: all .8s;
   transition: all .8s;
@@ -205,11 +205,13 @@ li a{
 
 .carousel-indicators .active {
   width: 25px;
+ 
 }
 
 .carousel-control-prev,
 .carousel-control-next {
   width: 10vw;
+  margin: 13px;
 }
 
 @keyframes slideLeft {
@@ -237,7 +239,7 @@ li a{
   padding-top: 17px;
   text-align: center;
   border-radius: 100px;
-  background-color: rgb(63, 44, 231);
+  background-color: rgb(23, 155, 93);
   cursor: pointer;
 }
 
