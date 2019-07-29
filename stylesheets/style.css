@@ -36,8 +36,47 @@ li a{
   font-weight: bold;
 }
 
+/* BOTÓN SUBIR */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* Style button */
+
+#top-btn {
+  width: 50px;
+  height: 50px;
+  bottom: -50px;
+  right: 20px;
+  position: fixed;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #3DCC8E;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+#top-btn:hover {
+  background-color: #1aa469;
+}
+
+#top-btn:hover i {
+  padding-top: 5px;
+}
+
+#top-btn i {
+  padding-top: 15px;
+  font-size: 20px;
+  /line-height: 50px;
+  color: #FFFFFF;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
 
 
+
+/* CARRUSEL */
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%);
@@ -349,10 +388,10 @@ h3 {
 }
 
 
-
+/* GALERÍA */
 
 .galeria {
-  background-color: #F9F9F9;
+  background-image: url(../img/BackgroundGaleria.jpg);
   padding: 50px;
   width: auto;
 }
@@ -364,13 +403,17 @@ h3 {
 
 
 /* PROFESORES */
+.maestras {
+  background-image: url(../img/BackgroundMaestras.jpg);
+  padding: 50px;
 
+}
 
-.profesores {
+/* .profesores {
   background-color: #F9F9F9;
   padding: 50px;
   width: auto;
-}
+} */
 
 .profesores h1{
   font-family: "Lobster Two";
