@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  padding: 0px;
+ 
+  }
+
 *:focus { outline: none; } 
 
 @font-face {
@@ -415,12 +421,12 @@ h3 {
   width: auto;
 } */
 
-.profesores h1{
+.maestras h1{
   font-family: "Lobster Two";
   font-size: 48px;
 }
 
-.profesores h2{
+.maestras h2{
   font-family: "Open Sans";
   font-weight: bold;
   color: #F9F9F9;
@@ -448,3 +454,10 @@ h3 {
 .box16 .social li:last-child a{margin-right:0}
 @media only screen and (max-width:990px){.box16{margin-bottom:30px}
 }
+
+#opiniones {
+  background-image: url(../img/BackgroundMaestras.jpg);
+  padding: 50px;
+
+}
+
