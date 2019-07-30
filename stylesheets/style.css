@@ -504,6 +504,17 @@ li a{
   overflow: hidden;
 }
 
+@media (max-width: 660px) {
+  
+  .carousel-inner2 {
+    position: relative; 
+    width: 92vw;
+    height: 20vh;
+    overflow: hidden;
+  }
+
+}
+
 
 
 
