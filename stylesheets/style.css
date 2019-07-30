@@ -28,6 +28,19 @@ body {
   visibility: hidden;
 }
 
+.idioma{
+  padding-left: 100px;
+  padding-top: 2px;
+}
+
+@media only screen and (max-width: 995px) {
+  
+  .idioma{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+
 
 
 .navbar {
