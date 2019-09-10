@@ -37,6 +37,40 @@ $(window).scroll(function() {
 });
 
 
+$(window).scroll(function() {
+  $('#nina').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+700) {
+      $(this).addClass("fadeIn");
+    }
+  });
+});
+
+$(window).scroll(function() {
+  $('#mono').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+600) {
+      $(this).addClass("slideLeft");
+    }
+  });
+});
+
+$(window).scroll(function() {
+  $('#hipo').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+600) {
+      $(this).addClass("slideRight");
+    }
+  });
+});
+
+
 
 /* BOTÓN SUBIR */
 document.addEventListener("scroll", yScroll);
