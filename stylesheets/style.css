@@ -455,6 +455,25 @@ li a{
   font-size: 35px;
 }
 
+/* Clases */
+
+.clases {
+  
+  padding: 20px;
+
+}
+
+.clases h1{
+  font-family: "Lobster Two";
+  font-size: 48px;
+}
+
+.clases h2{
+  font-family: "Lobster Two";
+  font-size: 35px;
+}
+
+
 
 /* GALERÍA */
 
