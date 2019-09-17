@@ -1,4 +1,12 @@
 
+// FUNCIÓN PARA QUE LA NAVBAR SE CIERRE AUTOMÁTICAMENTE TRAS UN CLICK
+
+$('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+
+// EFECTOS SLIDERS
+
 $(window).scroll(function() {
   $('#textoAnimado').each(function(){
   var imagePos = $(this).offset().top;
@@ -101,6 +109,6 @@ function ScrollTop() {
   }, 0.5);
 }
 
-/* CARRUSEL OPINIONES */
+
 
 
