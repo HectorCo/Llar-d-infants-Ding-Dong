@@ -181,7 +181,7 @@ li a{
 
 .carousel-control-prev,
 .carousel-control-next {
-  width: 10vw;
+  width: 15vw;
   margin: 13px;
 }
 
@@ -204,6 +204,7 @@ li a{
   }
 }
 
+@media only screen and (min-width: 170px) {
 .bolasCarrusel {
   width: 50px;
   height: 50px;
@@ -213,7 +214,7 @@ li a{
   background-color: rgb(23, 155, 93);
   cursor: pointer;
 }
-
+}
 
 /* SERVICIOS */
 
