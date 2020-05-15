@@ -312,6 +312,13 @@ li a{
 
 }
 
+#margen {
+  margin-right: 12%;
+  margin-left: 12%;
+  
+
+}
+
 #textoAnimado {
 
   visibility: hidden;
